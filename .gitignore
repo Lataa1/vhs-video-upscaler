@@ -7,6 +7,8 @@ __pycache__/
 build/
 dist/
 *.spec
+release-build/
+release-artifacts/
 
 # Local app state
 output/
