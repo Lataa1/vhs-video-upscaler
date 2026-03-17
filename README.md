@@ -64,6 +64,25 @@ You need:
 
 The app can auto-detect local tool folders if you keep them under a `tools/` folder next to the project, but `tools/` is intentionally ignored in git.
 
+## Getting the tools
+
+The easiest Windows setup is:
+
+1. Download a ready-to-use FFmpeg Windows build and place it under `tools/FFmpeg/`.
+2. Install VapourSynth Portable for Windows and make sure `VSPipe.exe` is available.
+3. Install the required VapourSynth plugins, either with `vsrepo` or by using a prepared portable setup.
+4. Download `realesrgan-ncnn-vulkan` for Windows and place it under `tools/RealESRGAN/`.
+5. Start the app and use `Auto-Detect Tools` on the `Tools` tab.
+
+Recommended official starting points:
+- FFmpeg downloads page: [ffmpeg.org/download.html](https://www.ffmpeg.org/download.html)
+- VapourSynth installation guide: [vapoursynth.com/doc/installation.html](https://www.vapoursynth.com/doc/installation.html)
+- Real-ESRGAN NCNN Vulkan releases: [xinntao/Real-ESRGAN-ncnn-vulkan releases](https://github.com/xinntao/Real-ESRGAN-ncnn-vulkan/releases)
+
+Note:
+- FFmpeg itself links to third-party Windows builds rather than shipping official Windows binaries directly.
+- VapourSynth's Windows installation guidance currently points to the portable install script as the easiest route.
+
 ## Launching the app
 
 Recommended:

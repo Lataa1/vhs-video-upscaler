@@ -40,6 +40,21 @@ The wrapper does not embed third-party tools inside the Python source itself. It
 
 The app can auto-detect a local `tools/` folder next to the project, but `tools/` is usually best kept out of git.
 
+## Getting the tools
+
+The easiest Windows setup is:
+
+1. Download a ready-to-use FFmpeg Windows build and place it under `tools/FFmpeg/`.
+2. Install VapourSynth Portable for Windows and make sure `VSPipe.exe` is available.
+3. Install the required VapourSynth plugins, either with `vsrepo` or by using a prepared portable setup.
+4. Download `realesrgan-ncnn-vulkan` for Windows and place it under `tools/RealESRGAN/`.
+5. Start the app and use `Auto-Detect Tools`.
+
+Recommended official starting points:
+- FFmpeg downloads page: [ffmpeg.org/download.html](https://www.ffmpeg.org/download.html)
+- VapourSynth installation guide: [vapoursynth.com/doc/installation.html](https://www.vapoursynth.com/doc/installation.html)
+- Real-ESRGAN NCNN Vulkan releases: [xinntao/Real-ESRGAN-ncnn-vulkan releases](https://github.com/xinntao/Real-ESRGAN-ncnn-vulkan/releases)
+
 ## Recommended way to launch
 
 Because Windows Smart App Control may block unsigned `.exe` builds, the safest launch method is:
