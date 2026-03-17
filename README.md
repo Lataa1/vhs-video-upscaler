@@ -103,6 +103,26 @@ You can also run the GUI directly:
 py -3.12 .\vhs_upscaler_gui.py
 ```
 
+## If Windows blocks the app
+
+If you download the release `.zip` from GitHub, Windows may mark it as coming from the internet and block the extracted files.
+
+Try this first:
+
+1. Right-click the downloaded `.zip`
+2. Open `Properties`
+3. Check `Unblock`
+4. Click `Apply`
+5. Extract the zip after that
+
+If you already extracted it, you can remove the block in PowerShell:
+
+```powershell
+Get-ChildItem "C:\path\to\extracted-folder" -Recurse -File | Unblock-File
+```
+
+This can be necessary even when starting the app through `.bat` or `.ps1`, because Windows may still block the launched binaries.
+
 ## Building the `.exe`
 
 Use:
