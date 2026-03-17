@@ -2,6 +2,9 @@
 
 This project contains a local desktop GUI for restoring and upscaling VHS captures with free tools.
 
+Latest release download:
+- [VHSUpscaler-0.1.0-windows-x64.zip](https://github.com/Lataa1/vhs-video-upscaler/releases/download/v0.1.0/VHSUpscaler-0.1.0-windows-x64.zip)
+
 Main files:
 - [vhs_upscaler_gui.py](./vhs_upscaler_gui.py)
 - [launch_vhs_upscaler.bat](./launch_vhs_upscaler.bat)

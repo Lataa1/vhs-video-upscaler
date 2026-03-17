@@ -8,6 +8,9 @@ Desktop GUI for restoring PAL and NTSC VHS captures with QTGMC, FFmpeg, and Real
 
 ![VHS Upscaler screenshot](./docs/images/app-screenshot.png)
 
+Latest release download:
+- [VHSUpscaler-0.1.0-windows-x64.zip](https://github.com/Lataa1/vhs-video-upscaler/releases/download/v0.1.0/VHSUpscaler-0.1.0-windows-x64.zip)
+
 ## Features
 
 - Desktop GUI for the full VHS pipeline
@@ -90,6 +93,7 @@ Recommended:
 
 Alternative:
 - [launch_vhs_upscaler.ps1](./launch_vhs_upscaler.ps1)
+- [Latest release zip](https://github.com/Lataa1/vhs-video-upscaler/releases/download/v0.1.0/VHSUpscaler-0.1.0-windows-x64.zip)
 
 The PowerShell launcher correctly handles project paths that contain spaces.
 
