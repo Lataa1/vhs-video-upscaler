@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Build outputs
+build/
+dist/
+*.spec
+
+# Local app state
+output/
+preview/
+downloads/
+tools/
+
+# Media and debug artifacts
+*.ffindex
+debug_*.png
+temp_*.png
+temp_*.exe
+preview_test_input.mkv
+vapoursynth_smoke_test.vpy
+
+# Windows / editor noise
+Thumbs.db
+Desktop.ini
+.DS_Store
