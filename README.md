@@ -4,6 +4,10 @@ A local Windows GUI for restoring and upscaling VHS captures with free tools.
 
 The app wraps a practical restoration pipeline around VapourSynth, QTGMC, FFmpeg, and Real-ESRGAN NCNN Vulkan. It is designed for home-video workflows where the goal is a cleaner, easier-to-watch result rather than fake "true HD" detail.
 
+Desktop GUI for restoring PAL and NTSC VHS captures with QTGMC, FFmpeg, and Real-ESRGAN.
+
+![VHS Upscaler screenshot](./docs/images/app-screenshot.png)
+
 ## Features
 
 - Desktop GUI for the full VHS pipeline
